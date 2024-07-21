@@ -8,6 +8,38 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post" action="car-insurance">
+		
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" required><br>
+
+	   <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required><br>
+
+		
+        <label for="gender">Gender:</label>
+		<input type="radio" id="radio" name="gender" value="male" required>
+        <input type="radio" id="radio" name="gender" value="female" required><br>
+
+		
+    <label for="car">Car Brands:</label>
+	<select id="car">
+		<option value="BMW">BMW</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedez">Mercedez</option>
+	</select><br> 
+		
+		<label for="carage">Car Age:</label>
+       <input type="number" id="carage" name="carage" required><br>
+
+		<label for="dop">Date:</label>
+       <input type="date" id="dop" name="dop" required><br>
+      
+	  <label for="password">Password:</label>
+       <input type="password" id="password" name="password" required><br>
+		
+       <button type="button">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
